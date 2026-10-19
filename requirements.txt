@@ -1,0 +1,10 @@
+# Общее окружение для всех лаб: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+# PyTorch CPU-версия (без CUDA, ~10x меньше):
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy
+scipy
+matplotlib
+jupyter
+ipykernel
+torch
+torchvision
